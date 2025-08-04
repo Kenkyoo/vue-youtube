@@ -1,64 +1,59 @@
-# vue-tube
+# 🎥 VueTube
 
-This template should help get you started developing with Vue 3 in Vite.
+Un clon simple de YouTube creado con Vue 3 + TypeScript. Permite ver videos populares, buscar contenido, explorar canales, ver detalles de cada video y guardar historial de videos vistos usando LocalStorage.
 
-## Recommended IDE Setup
+🌐 [Ver demo](https://vue-yt.netlify.app/)
+📁 [Repositorio en GitHub](https://github.com/Kenkyoo/vue-youtube)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Type Support for `.vue` Imports in TS
+## 🚀 Funcionalidades
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+* 🔍 Búsqueda de videos
+* 📈 Sección de videos populares
+* 🎦 Página para ver un video con relacionados
+* 👤 Página de canal con sus videos
+* 🕒 Historial de videos vistos (LocalStorage)
+* 🌙 Cambios de tema con `theme-change`
+* 📱 Diseño responsive con Tailwind + DaisyUI
+* ⚡ Animaciones con `animate.css`
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🧪 Tecnologías
 
-## Project Setup
+* **Vue 3** + **Vue Router**
+* **TypeScript**
+* **TailwindCSS** + **DaisyUI**
+* **Vite**
+* **YouTube Data API v3**
+* **Vitest** y **Playwright** para testing
 
-```sh
+---
+
+## 📦 Instalación
+
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
+## 📁 Scripts
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+| Comando             | Descripción                    |
+| ------------------- | ------------------------------ |
+| `npm run dev`       | Inicia servidor local          |
+| `npm run build`     | Compila la app                 |
+| `npm run preview`   | Previsualiza la build          |
+| `npm run test:unit` | Corre tests unitarios          |
+| `npm run test:e2e`  | Corre tests E2E con Playwright |
+| `npm run lint`      | Lint con ESLint y Oxlint       |
 
-```sh
-npm run test:unit
-```
+---
 
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
+## 📝 Licencia
 
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-npm run build
-
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Este proyecto es solo con fines educativos.
+Desarrollado por [Kenkyoo](https://github.com/Kenkyoo)
